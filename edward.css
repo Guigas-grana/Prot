@@ -1,0 +1,17 @@
+.tudo {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://i.pinimg.com/originals/43/d0/a8/43d0a8dcf1eb2c907290af1a2f75ab41.gif');
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-size: 100%;
+}
+
+.x {
+    font-size: 30px;
+    color: darkblue;
+}

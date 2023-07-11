@@ -1,0 +1,905 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(35, 35, 58);
+}
+
+.geral {
+    background-color: rgb(35, 35, 58);
+    color: antiquewhite;
+    position: absolute;
+    left: 150px;
+    top: 0px;
+}
+.corvermelha {
+    color: red;
+}
+.coramarela {
+    color: rgb(rgba(0, 255, 42, 0.904), green, blue);
+}
+.corazul {
+    color: blue;
+}
+.cormarrom {
+    color: darkred;
+}
+.corlaranja {
+    color: orange;
+}
+.corverdeescuro {
+    color: darkgreen;
+}
+.corverdeclaro {
+    color: green;
+}
+.corvinho {
+    color: rgba(16, 188, 190, 0.815);
+}
+
+.primeira {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    max-width: 100%;
+}
+h1.t1 {
+     color: blue;
+}
+.segunda {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+h1.t2 {
+    color: lightpink;
+}
+.terceira {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+h1.t3 {
+    color: lime;
+}
+.quarta {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+h1.t4 {
+    color: rgb(12, 246, 250);
+}
+.quinta {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+h1.t5 {
+    color: rgba(7, 235, 45, 0.87);
+}
+.sexta {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+h1.t6 {
+   color: crimson;
+}
+.setima {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+h1.t7 {
+    color: #357;
+}
+.oitava {
+    text-align: center;
+    display: block;
+    font-size: 30px;
+}
+h1.t8 {
+    color: yellow;
+}
+
+ul {   
+    list-style: none;
+    border: 1px solid #333;
+    float: none;
+    padding: 0;
+    }
+    ul li {
+    position: relative;
+    float: none;
+    border-right: 1px solid #c0c0;
+    }
+    ul li a {
+    color: #234;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+    } 
+    ul li a:hover {
+        background-color: #134513;
+        color: #c0c0;
+        text-shadow: 0px 0px 0px rgba(209, 13, 13, 0.533);
+    }
+
+    li ul {
+        position: absolute;
+        top: 26px;
+        left: 0;
+        background-color: rgba(152, 243, 7, 0.333);
+        display: none;
+    }
+
+    ul li:hover ul, ul li:hover ul{
+        display: block;
+    }
+
+    ul li ul li{
+        border: 2px solid rgb(77, 4, 4);
+        display: block;
+        width: 150px;
+    }
+
+    ul li a:hover {
+        background-color: darkblue;
+        color: #357;
+        text-shadow: 0px 0px 5px #2341;
+    }
+
+    li ul {
+        position: absolute;
+        top: 5px;
+        left: 140px;
+        background-color: rgba(7, 235, 45, 0.87);
+        display: none;
+    }
+
+    ul li:hover ul, ul li:hover ul {
+        display: block;
+    }
+
+    ul li ul li{
+        text-align: center;
+        border: 1px solid rgba(5, 54, 104, 0.863);
+        display: block;
+        width: 150px;
+    }
+
+
+
+
+
+    .azim {
+        background-color: rgb(12, 246, 250);
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        height: 100%;
+        width: 145px;
+        list-style: none;
+        border: 3px solid #e40a0a;
+        float: none;
+        padding: 0;
+        }
+        .azim li {
+        position: relative;
+        float: none;
+        border-right: 1px solid #c0c0;
+        }
+        .azim li a {
+        color: #234;
+        text-decoration: none;
+        padding: 5px 10px;
+        display: block;
+        } 
+        .azim li a:hover {
+            background-color: #134513;
+            color: #c0c0;
+            text-shadow: 0px 0px 0px rgba(209, 13, 13, 0.533);
+        }
+    
+        li .azim {
+            position: absolute;
+            top: 26px;
+            left: 0;
+            background-color: rgba(152, 243, 7, 0.333);
+            display: none;
+        }
+    
+        .azim li:hover .azim, .azim li:hover .azim{
+            display: block;
+        }
+    
+        .azim li .azim li{
+            border: 2px solid rgb(77, 4, 4);
+            display: block;
+            width: 150px;
+        }
+    
+        .azim li a:hover {
+            background-color: darkblue;
+            color: #357;
+            text-shadow: 0px 0px 5px #2341;
+        }
+    
+        li .azim {
+            position: absolute;
+            top: 5px;
+            left: 0;
+            background-color: rgba(7, 235, 45, 0.87);
+            display: none;
+        }
+    
+        .azim li:hover .azim, .azim li:hover .azim {
+            display: block;
+        }
+    
+        .azim li .azim li{text-align: center;
+            border: 1px solid rgba(5, 54, 104, 0.863);
+            display: block;
+            width: 150px;
+        }
+
+
+
+
+        a.imagem {
+            display: block;
+            text-decoration: none;
+            position: relative;
+        }
+       .tal {
+        height: 100%;
+        width: 100%;
+       }
+       .zeper {
+        position: relative;
+        left: 50%;
+       }
+
+
+       .haha {
+        font-size: 15px;
+       }
+    
+       .hahb {
+        font-size: 20px;
+       }
+
+       .hahc {
+        font-size: 20px;
+       }
+
+       .hahd {
+        font-size: 20px;
+       }
+
+       .hahe {
+        font-size: 20px;
+       }
+
+       .hahf {
+        font-size: 20px;
+       }
+
+
+       .jaja {
+        font-size: 20px;
+       }
+       .jajb {
+        font-size: 20px;
+       }
+       .paks {
+        text-align: center;
+       }
+
+
+       .zips {
+        border-radius: 50%;
+       }
+       .zips2 {
+        border-radius: 50%;
+       }
+       
+
+       a.imagem0 {
+        color: rgb(35, 35, 58);
+       }
+
+        
+
+        @media screen and (max-width: 400px) and (min-width: 300px) {
+            .geral {
+            left: 53px; 
+            background-color: black;
+            color: white;
+            }
+            .primeira {   
+            width: 300px;
+            font-size: 12px;
+            }
+            .segunda {   
+            width: 300px;
+            font-size: 12px;
+            }
+            .terceira {   
+            width: 300px;
+            font-size: 12px;
+            }
+            .quarta {   
+            width: 300px;
+            font-size: 12px;
+            }
+            .quinta {   
+            width: 300px;
+            font-size: 12px;
+            }
+            .sexta {   
+            width: 300px;
+            font-size: 12px;
+            }
+            .setima {   
+             width: 300px;
+            font-size: 12px;
+            }
+            .oitava {   
+            width: 300px;
+            font-size: 12px;
+            }
+            .rr {   
+            width: 300px;
+            font-size: 12px;
+            color: black;
+            }
+            .Into {   
+            width: 300px;
+            font-size: 12px;
+            }  
+            .zips2 {
+            font-size: 5px;    
+            color: black; 
+            width: 30px;
+            height: 30px;  
+            }            
+            .iluffy {
+                width: 225px;
+                height: 137px;
+            }
+            .inaruto {
+                width: 225px;
+                height: 137px;
+            }
+            .itanjiro {
+                width: 225px;
+                height: 137px;
+            }
+            .ilight {
+                width: 225px;
+                height: 137px;
+            }
+            .iedward {
+                width: 225px;
+                height: 137px;
+            }
+            .ieren {
+                width: 225px;
+                height: 137px;
+            }
+            .iizuku {
+                width: 225px;
+                height: 137px;
+            }
+            .igoku {
+                width: 225px;
+                height: 137px;
+            }
+            .azim {
+                width: 50px;
+            }
+            li ul{
+                left: 50px;
+                font-size: 30px;
+            }
+            .azim li a {
+                font-size: 7px;
+            }
+            } 
+ 
+        
+        @media screen and (max-width: 500px) and (min-width: 400px)  {
+            .geral {
+            left: 66px;
+            background-color: chartreuse;
+            color: black;    
+            }
+            .primeira {   
+            width: 375px;
+            font-size: 15px;
+            }
+            .segunda {   
+            width: 375px;
+            font-size: 15px;
+            }
+            .terceira {   
+            width: 375px;
+            font-size: 15px;
+            }
+            .quarta {   
+            width: 375px;
+            font-size: 15px;
+            }
+            .quinta {   
+            width: 375px;
+            font-size: 15px;
+            }
+            .sexta {   
+            width: 375px;
+            font-size: 15px;
+            }
+            .setima {   
+             width: 375px;
+            font-size: 15px;
+            }
+            .oitava {   
+            width: 375px;
+            font-size: 15px;
+            }
+            .rr {   
+            width: 375px;
+            font-size: 15px;
+            }
+            .Into {   
+            width: 375px;
+            font-size: 15px;
+            }
+            .zips2 {
+            font-size: 5px;    
+            color: chartreuse; 
+            width: 40px;
+            height: 40px;  
+            }              
+            .iluffy {
+                width: 344px;
+                height: 172px;
+            }
+            .inaruto {
+                width: 344px;
+                height: 172px;
+            }
+            .itanjiro {
+                width: 344px;
+                height: 172px;
+            }
+            .ilight {
+                width: 344px;
+                height: 172px;
+            }
+            .iedward {
+                width: 344px;
+                height: 172px;
+            }
+            .ieren {
+                width: 344px;
+                height: 172px;
+            }
+            .iizuku {
+                width: 344px;
+                height: 172px;
+            }
+            .igoku {
+                width: 344px;
+                height: 172px;
+            }
+            .azim {
+                width: 62px;
+            }
+            li ul{
+                left: 62px;
+                font-size: 19px;
+            }
+            .azim li a {
+                font-size: 9px;
+            }
+            } 
+
+
+
+
+        @media screen and (max-width: 600px) and (min-width: 500px)  {
+            .geral {
+            left: 80px;  
+            background-color: red;
+            color: aqua;  
+            }
+            .primeira {   
+            width: 450px;
+            font-size: 18px;
+            }
+            .segunda {   
+            width: 450px;
+            font-size: 18px;
+            }
+            .terceira {   
+            width: 450px;
+            font-size: 18px;
+            }
+            .quarta {   
+            width: 450px;
+            font-size: 18px;
+            }
+            .quinta {   
+            width: 450px;
+            font-size: 18px;
+            }
+            .sexta {   
+            width: 450px;
+            font-size: 18px;
+            }
+            .setima {   
+             width: 450px;
+            font-size: 18px;
+            }
+            .oitava {   
+            width: 450px;
+            font-size: 18px;
+            }
+            .rr {   
+            width: 450px;
+            font-size: 18px;
+            }
+            .Into {   
+            width: 450px;
+            font-size: 18px;
+            }  
+            .zips2 {
+            font-size: 5px;    
+            color: red; 
+            width: 50px;
+            height: 50px;   
+            }            
+            .iluffy {
+                width: 412px;
+                height: 206px;
+            }
+            .inaruto {
+                width: 412px;
+                height: 206px;
+            }
+            .itanjiro {
+                width: 412px;
+                height: 206px;
+            }
+            .ilight {
+                width: 412px;
+                height: 206px;
+            }
+            .iedward {
+                width: 412px;
+                height: 206px;
+            }
+            .ieren {
+                width: 412px;
+                height: 206px;
+            }
+            .iizuku {
+                width: 412px;
+                height: 206px;
+            }
+            .igoku {
+                width: 412px;
+                height: 206px;
+            }
+            .azim {
+                width: 75px;
+            }
+            li ul{
+                left: 75px;
+                font-size: 22px;
+            }
+            .azim li a {
+                font-size: 11px;
+            }
+            } 
+
+
+
+        @media screen and (max-width: 700px) and (min-width: 600px)  {
+            .geral {
+            left: 93px;  
+            background-color: darkgrey;
+            color: rgb(77, 4, 4);  
+            }
+            .primeira {   
+            width: 525px;
+            font-size: 21px;
+            }
+            .segunda {   
+            width: 525px;
+            font-size: 21px;
+            }
+            .terceira {   
+            width: 525px;
+            font-size: 21px;
+            }
+            .quarta {   
+            width: 525px;
+            font-size: 21px;
+            }
+            .quinta {   
+            width: 525px;
+            font-size: 21px;
+            }
+            .sexta {   
+            width: 525px;
+            font-size: 21px;
+            }
+            .setima {   
+             width: 525px;
+            font-size: 21px;
+            }
+            .oitava {   
+            width: 525px;
+            font-size: 21px;
+            }
+            .rr {   
+            width: 525px;
+            font-size: 21px;
+            }
+            .Into {   
+            width: 525px;
+            font-size: 21px;
+            }  
+            .zips2 {
+            font-size: 6px;    
+            color: darkgrey; 
+            width: 60px;
+            height: 60px;  
+            }            
+            .iluffy {
+                width: 480px;
+                height: 240px;
+            }
+            .inaruto {
+                width: 480px;
+                height: 240px;
+            }
+            .itanjiro {
+                width: 480px;
+                height: 240px;
+            }
+            .ilight {
+                width: 480px;
+                height: 240px;
+            }
+            .iedward {
+                width: 480px;
+                height: 240px;
+            }
+            .ieren {
+                width: 480px;
+                height: 240px;
+            }
+            .iizuku {
+                width: 480px;
+                height: 240px;
+            }
+            .igoku {
+                width: 480px;
+                height: 240px;
+            }
+            .azim {
+                width: 87px;
+            }
+            li ul{
+                font-size: 21px;
+                left: 87px;
+            }
+            .azim li a {
+                font-size: 13px;
+            }
+            } 
+
+
+
+
+        @media screen and (max-width: 800px) and (min-width: 700px) {
+            .geral {
+            left: 106px;  
+            background-color: yellow;
+            color: blue;  
+            }
+            .primeira {   
+            width: 600px;
+            font-size: 25px;
+            }
+            .segunda {   
+            width: 600px;
+            font-size: 25px;
+            }
+            .terceira {   
+            width: 600px;
+            font-size: 25px;
+            }
+            .quarta {   
+            width: 600px;
+            font-size: 25px;
+            }
+            .quinta {   
+            width: 600px;
+            font-size: 25px;
+            }
+            .sexta {   
+            width: 600px;
+            font-size: 25px;
+            }
+            .setima {   
+             width: 600px;
+            font-size: 25px;
+            }
+            .oitava {   
+            width: 600px;
+            font-size: 25px;
+            }
+            .rr {   
+            width: 600px;
+            font-size: 25px;
+            }
+            .Into {   
+            width: 600px;
+            font-size: 25px;
+            }  
+            .zips2 {
+            font-size: 5px;    
+            color: yellow; 
+            width: 70px;
+            height: 70px; 
+            }          
+            .iluffy {
+                width: 550px;
+                height: 275px;
+            }
+            .inaruto {
+                width: 550px;
+                height: 275px;
+            }
+            .itanjiro {
+                width: 550px;
+                height: 275px;
+            }
+            .ilight {
+                width: 550px;
+                height: 275px;
+            }
+            .iedward {
+                width: 550px;
+                height: 275px;
+            }
+            .ieren {
+                width: 550px;
+                height: 275px;
+            }
+            .iizuku {
+                width: 550px;
+                height: 275px;
+            }
+            .igoku {
+                width: 550px;
+                height: 275px;
+            }
+            .azim {
+                width: 100px;
+            }
+            li ul{
+                left: 100px;
+                font-size: 30px;
+            }
+            .azim li a {
+                font-size: 15px;
+            }
+            } 
+
+
+
+        @media screen and (max-width: 900px) and (min-width: 800px)  {
+            .geral {
+            left: 119px;    
+            background-color: #134513;
+            color: antiquewhite;
+            }
+            .primeira {   
+            width: 675px;
+            font-size: 28px;
+            }
+            .segunda {   
+            width: 675px;
+            font-size: 28px;
+            }
+            .terceira {   
+            width: 675px;
+            font-size: 28px;
+            }
+            .quarta {   
+            width: 675px;
+            font-size: 28px;
+            }
+            .quinta {   
+            width: 675px;
+            font-size: 28px;
+            }
+            .sexta {   
+            width: 675px;
+            font-size: 28px;
+            }
+            .setima {   
+             width: 675px;
+            font-size: 28px;
+            }
+            .oitava {   
+            width: 675px;
+            font-size: 28px;
+            }
+            .rr {   
+            width: 675px;
+            font-size: 28px;
+            }
+            .Into {   
+            width: 675px;
+            font-size: 28px;
+            }  
+            .zips2 {
+            font-size: 5px;    
+            color: #134513; 
+            width: 80px;
+            height: 80px;
+            }
+            .iluffy {
+                width: 618px;
+                height: 310px;
+            }
+            .inaruto {
+                width: 618px;
+                height: 310px;
+            }
+            .itanjiro {
+                width: 618px;
+                height: 310px;
+            }
+            .ilight {
+                width: 618px;
+                height: 310px;
+            }
+            .iedward {
+                width: 618px;
+                height: 310px;
+            }
+            .ieren {
+                width: 618px;
+                height: 310px;
+            }
+            .iizuku {
+                width: 618px;
+                height: 310px;
+            }
+            .igoku {
+                width: 618px;
+                height: 310px;
+            }
+            .azim {
+                width: 112px;
+            }
+            li ul {
+                font-size: 28px;
+                left: 112px;
+            }
+            .azim li a {
+                font-size: 17px;
+            }
+            }
+        
+
+             

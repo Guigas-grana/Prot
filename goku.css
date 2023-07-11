@@ -1,0 +1,17 @@
+.tudo {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    margin-top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('https://pa1.narvii.com/6849/ecde8910d52b3956f4827498d1ecef2711b50078_hq.gif');
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    background-size: 100%;
+}
+
+.x {
+    font-size: 30px;
+    color: darkblue;
+}
